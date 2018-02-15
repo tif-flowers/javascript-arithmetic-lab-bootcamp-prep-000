@@ -28,12 +28,20 @@ function dec(n) {
 
 
 function makeInt(n) {
+<<<<<<< HEAD
   var parsed = parseInt(n,10);
+=======
+  var parsed = parseInt(n)
+>>>>>>> 67d1e611b55fa566446c33a6f7ef6a112f8fce35
   return parsed;
 }
 
 function preserveDecimal(n) {
+<<<<<<< HEAD
   var parsed = parseFloat(n)
+=======
+  var parsed = parseFloat(n*10)
+>>>>>>> 67d1e611b55fa566446c33a6f7ef6a112f8fce35
   return parsed;
 }
 
